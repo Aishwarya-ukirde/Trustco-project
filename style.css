@@ -1,0 +1,107 @@
+/* Global Styles */
+
+/* Apply box-sizing globally */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+ height: 24px;
+ width: 158px;
+}
+/* Define root variables for colors */
+:root {
+    --primary-color: #0A2A43;
+    --secondary-color: #F4A261;
+    --text-color: #333;
+    --background-color: #F9FAFC;
+    --accent-color: black
+    ;
+    font-weight: 00
+}
+
+/* Set body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* Paragraphs */
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+    transition: color 0.3s;
+}
+
+
+/* Buttons */
+button, .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.signup{
+    background:#043A53;
+    color: white;
+}
+
+
+
+/* Spacing */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between; 
+    gap: 2px; 
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px; 
+    flex-wrap: wrap;
+   
+
+}
